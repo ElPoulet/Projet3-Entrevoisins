@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/detailGlobalLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    tools:context=".Profil">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        app:contentInsetStart="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <RelativeLayout
+            android:id="@+id/ActivityLayoutToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#EEFFFFFF">
+
+
+
+
+            <ImageView
+                android:id="@+id/photoProfil"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:scaleType="centerCrop"
+                />
+
+
+            <ImageButton
+                android:id="@+id/imageButtonBack"
+                android:layout_width="50dp"
+                android:layout_height="45dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:background="#00FFFFFF"
+                app:srcCompat="?attr/actionModeCloseDrawable"
+                tools:visibility="visible" />
+
+            <TextView
+                android:id="@+id/prenomMain"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="17dp"
+                android:layout_marginTop="175dp"
+                android:text="Caroline"
+                android:textColor="@android:color/white"
+                android:textSize="34sp" />
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/imageFavori"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="30dp"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/activity_neighbour_details_infos"
+        android:layout_width="385dp"
+        android:layout_height="230dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout_infos"
+            android:layout_width="370dp"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:id="@+id/imageLocalisation"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/prenomSecond"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="60dp"
+                app:srcCompat="@drawable/ic_localisation_foreground" />
+
+
+
+            <ImageView
+                android:id="@+id/imagePhone"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/imageLocalisation"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@drawable/ic_phone_foreground" />
+
+
+            <ImageView
+                android:id="@+id/imageNetwork"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/imagePhone"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="20dp"
+                app:srcCompat="@drawable/ic_network_foreground" />
+
+
+            <TextView
+                android:id="@+id/prenomSecond"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:text="Caroline"
+                android:textColor="@android:color/black"
+                android:textSize="24sp" />
+
+
+            <TextView
+                android:id="@+id/address"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="65dp"
+                android:layout_toEndOf="@+id/imageLocalisation"
+                android:text="Saint Pierre st mont a 5km"
+                android:textSize="18sp"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/phoneNumber"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/address"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_toEndOf="@+id/imagePhone"
+                android:text="+33 6 86 57 90 14"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/network"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/phoneNumber"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_toEndOf="@+id/imageNetwork"
+                android:text="www.facebook.fr/caroline"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/activity_neighbour_details_about"
+        android:layout_width="380dp"
+        android:layout_height="138dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:minHeight="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/activity_neighbour_details_infos">
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout_about"
+            android:layout_width="368dp"
+            android:layout_height="130dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/about_tittle_txt"
+                android:layout_width="225dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:text="A propos de moi"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/biographie"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_alignStart="@+id/about_tittle_txt"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="65dp"
+                android:text="Présentation"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+
+</android.support.constraint.ConstraintLayout>
