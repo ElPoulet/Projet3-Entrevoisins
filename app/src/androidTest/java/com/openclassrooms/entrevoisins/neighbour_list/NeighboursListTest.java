@@ -111,9 +111,9 @@ public class NeighboursListTest {
 
         onView(withId(R.id.imageFavori)).perform(click());
 
-        pressBack();
+        onView(withId(R.id.imageButtonBack)).perform(click());
 
-        onView(withId(R.id.tabs)).perform(scrollRight());
+        onView(withId(R.id.container)).perform(scrollRight());
 
         onView(allOf(withId(R.id.list_neighbours), isDisplayed())).check(withItemCount(ITEMS_COUNT_FAVORITES+1));
 
