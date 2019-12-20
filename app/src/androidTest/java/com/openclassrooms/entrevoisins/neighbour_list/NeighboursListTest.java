@@ -105,7 +105,7 @@ public class NeighboursListTest {
     @Test
     public void myNeighboursList_onlyShowFavoritesNeighbours() {
 
-        onView(allOf(withId(R.id.list_neighbours), isDisplayed())).check(matches(isDisplayed()));
+        onView(allOf(withId(R.id.list_neighbours), isDisplayed())).check(withItemCount(ITEMS_COUNT_FAVORITES));
 
         onView(allOf(withId(R.id.list_neighbours), isDisplayed())).perform(actionOnItemAtPosition(0,click()));
 
@@ -116,8 +116,6 @@ public class NeighboursListTest {
         onView(withId(R.id.container)).perform(scrollRight());
 
         onView(allOf(withId(R.id.list_neighbours), isDisplayed())).check(withItemCount(ITEMS_COUNT_FAVORITES+1));
-
-        onView(allOf(withId(R.id.list_neighbours), isDisplayed())).check(matches(isDisplayed()));
 
     }
 

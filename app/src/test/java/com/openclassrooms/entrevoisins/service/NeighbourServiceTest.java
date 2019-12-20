@@ -48,14 +48,11 @@ public class NeighbourServiceTest {
     @Test
     public void addNeighbourInFavorites() {
         Neighbour neighbour = service.getNeighbours().get(0);
-        assertNotNull(neighbour.getFavorite());
+        service.changeFavoriteNeighbour(neighbour);
+        neighbour = service.getFavNeighbours().get(0);
+        assertTrue(neighbour.getFavorite());
     }
-
-    @Test
-    public void removeNeighbourFavorites() {
-        Neighbour neighbour = service.getNeighbours().get(0);
-        assertFalse(neighbour.getFavorite());
-    }
+    
 
 
 }
