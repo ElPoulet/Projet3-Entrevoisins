@@ -61,13 +61,13 @@ public class Profil extends AppCompatActivity {
         address.setText(neighbourRetour.getAddress());
         phoneNumber.setText(neighbourRetour.getPhoneNumber());
         socialNetwork.setText(neighbourRetour.getSocialNetwork());
-        ChangeStar();
+        changeStar();
 
         buttonFavorite.setOnClickListener(view -> {
 
             mFavoriteApiService.changeFavoriteNeighbour(neighbourRetour);
             neighbourRetour.setFavorite(!neighbourRetour.getFavorite());
-            ChangeStar();
+            changeStar();
         });
 
 
@@ -79,7 +79,7 @@ public class Profil extends AppCompatActivity {
 
     }
 
-    private void ChangeStar(){
+    private void changeStar(){
         if(neighbourRetour.getFavorite() == true)
             buttonFavorite.setImageResource(R.drawable.ic_star_white_24dp);
         else
