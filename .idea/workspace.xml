@@ -84,7 +84,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/test/java/com/openclassrooms/entrevoisins/service/NeighbourServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
+            <state relative-caret-position="525">
               <caret line="54" selection-start-line="54" selection-end-line="54" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -184,7 +184,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-21" />
     <option name="y" value="27" />
     <option name="width" value="1454" />
@@ -275,7 +275,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Android Instrumented Tests.NeighboursListTest">
+  <component name="RunManager" selected="Android App.app">
     <configuration name="NeighbourServiceTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="app" />
       <extension name="coverage">
@@ -633,7 +633,7 @@
       <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.50358164" side_tool="true" weight="0.32974428" />
       <window_info anchor="bottom" id="Build" order="5" sideWeight="0.49713466" weight="0.31493944" />
       <window_info anchor="bottom" id="Android Profiler" order="6" weight="0.32974428" />
-      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.49641833" visible="true" weight="0.31090176" />
+      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.49641833" weight="0.31090176" />
       <window_info anchor="bottom" id="Debug" order="8" sideWeight="0.497851" weight="0.41453567" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.32974428" />
       <window_info anchor="right" id="Device File Explorer" order="0" sideWeight="0.5060241" side_tool="true" weight="0.23710601" />
@@ -943,7 +943,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/test/java/com/openclassrooms/entrevoisins/service/NeighbourServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
+        <state relative-caret-position="525">
           <caret line="54" selection-start-line="54" selection-end-line="54" />
           <folding>
             <element signature="imports" expanded="true" />
