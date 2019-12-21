@@ -105,8 +105,6 @@ public class NeighboursListTest {
     @Test
     public void myNeighboursList_onlyShowFavoritesNeighbours() {
 
-        onView(allOf(withId(R.id.list_neighbours), isDisplayed())).check(withItemCount(ITEMS_COUNT_FAVORITES));
-
         onView(allOf(withId(R.id.list_neighbours), isDisplayed())).perform(actionOnItemAtPosition(0,click()));
 
         onView(withId(R.id.imageFavori)).perform(click());

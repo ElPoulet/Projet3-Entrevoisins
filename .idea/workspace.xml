@@ -10,7 +10,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="008d367d-9267-4407-9782-60b57d22a9d6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/openclassrooms/entrevoisins/neighbour_list/NeighboursListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/openclassrooms/entrevoisins/neighbour_list/NeighboursListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/test/java/com/openclassrooms/entrevoisins/service/NeighbourServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/openclassrooms/entrevoisins/service/NeighbourServiceTest.java" afterDir="false" />
     </list>
@@ -76,8 +75,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/openclassrooms/entrevoisins/neighbour_list/NeighboursListTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="117" column="113" selection-start-line="117" selection-start-column="113" selection-end-line="117" selection-end-column="113" />
+            <state relative-caret-position="83">
+              <caret line="105" column="64" selection-start-line="105" selection-start-column="64" selection-end-line="105" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,8 +87,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/test/java/com/openclassrooms/entrevoisins/service/NeighbourServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
+            <state relative-caret-position="319">
+              <caret line="54" selection-start-line="54" selection-end-line="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -174,12 +173,12 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/openclassrooms/entrevoisins/Profil.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_favorite_list.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_profil.xml" />
-        <option value="$PROJECT_DIR$/app/src/androidTest/java/com/openclassrooms/entrevoisins/neighbour_list/NeighboursListTest.java" />
         <option value="$PROJECT_DIR$/app/src/test/java/com/openclassrooms/entrevoisins/service/NeighbourServiceTest.java" />
+        <option value="$PROJECT_DIR$/app/src/androidTest/java/com/openclassrooms/entrevoisins/neighbour_list/NeighboursListTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="24" />
     <option name="y" value="6" />
     <option name="width" value="1454" />
@@ -270,7 +269,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Android JUnit.NeighbourServiceTest.addNeighbourInFavorites">
+  <component name="RunManager" selected="Android Instrumented Tests.NeighboursListTest">
     <configuration name="NeighbourServiceTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="app" />
       <extension name="coverage">
@@ -546,10 +545,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Android JUnit.NeighbourServiceTest.addNeighbourInFavorites" />
         <item itemvalue="Android Instrumented Tests.NeighboursListTest" />
-        <item itemvalue="Android Instrumented Tests.myNeighboursList_o...()" />
         <item itemvalue="Android JUnit.NeighbourServiceTest" />
+        <item itemvalue="Android Instrumented Tests.myNeighboursList_o...()" />
+        <item itemvalue="Android JUnit.NeighbourServiceTest.addNeighbourInFavorites" />
         <item itemvalue="Android JUnit.NeighbourServiceTest.getNeighboursWithSuccess" />
       </list>
     </recent_temporary>
@@ -568,18 +567,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="myNeighboursList_o___() - 2019.12.20 at 00h 38m 35s.xml">
-      <configuration name="myNeighboursList_o...()" configurationId="AndroidTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="myNeighboursList_o___() - 2019.12.20 at 00h 43m 24s.xml">
-      <configuration name="myNeighboursList_o...()" configurationId="AndroidTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="myNeighboursList_o___() - 2019.12.20 at 00h 43m 58s.xml">
-      <configuration name="myNeighboursList_o...()" configurationId="AndroidTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="NeighboursListTest - 2019.12.20 at 00h 46m 52s.xml">
-      <configuration name="NeighboursListTest" configurationId="AndroidTestRunConfigurationType" />
-    </history-entry>
     <history-entry file="NeighboursListTest - 2019.12.20 at 14h 08m 33s.xml">
       <configuration name="NeighboursListTest" configurationId="AndroidTestRunConfigurationType" />
     </history-entry>
@@ -597,6 +584,18 @@
     </history-entry>
     <history-entry file="NeighbourServiceTest_addNeighbourInFavorites - 2019.12.20 at 14h 45m 50s.xml">
       <configuration name="NeighbourServiceTest.addNeighbourInFavorites" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="NeighbourServiceTest - 2019.12.20 at 18h 32m 07s.xml">
+      <configuration name="NeighbourServiceTest" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="NeighboursListTest - 2019.12.20 at 18h 32m 51s.xml">
+      <configuration name="NeighboursListTest" configurationId="AndroidTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="myNeighboursList_o___() - 2019.12.20 at 18h 33m 05s.xml">
+      <configuration name="myNeighboursList_o...()" configurationId="AndroidTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="myNeighboursList_o___() - 2019.12.20 at 18h 37m 01s.xml">
+      <configuration name="myNeighboursList_o...()" configurationId="AndroidTestRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -919,16 +918,6 @@
       </provider>
       <provider editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/openclassrooms/entrevoisins/neighbour_list/NeighboursListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="117" column="113" selection-start-line="117" selection-start-column="113" selection-end-line="117" selection-end-column="113" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/openclassrooms/entrevoisins/service/NeighbourApiService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
@@ -936,10 +925,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/openclassrooms/entrevoisins/neighbour_list/NeighboursListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="105" column="64" selection-start-line="105" selection-start-column="64" selection-end-line="105" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/test/java/com/openclassrooms/entrevoisins/service/NeighbourServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
+        <state relative-caret-position="319">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

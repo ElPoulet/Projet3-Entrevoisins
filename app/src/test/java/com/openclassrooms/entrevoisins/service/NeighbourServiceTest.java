@@ -52,7 +52,7 @@ public class NeighbourServiceTest {
         neighbour = service.getFavNeighbours().get(0);
         assertTrue(neighbour.getFavorite());
     }
-    
+
 
 
 }
