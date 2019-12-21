@@ -7,6 +7,8 @@ Suivre les instructions pour installer et tester l'application
 Etape 1:
 Télécharger l'application sur le lien Github **https://github.com/ElPoulet/Projet3-Entrevoisins** 
 
+![Screenshot](TéléchargerGithub.png) 
+
 Etape 2:
 Stocker et déziper le fichier dans un dossier
 
