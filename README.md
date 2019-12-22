@@ -23,3 +23,9 @@ Ouvrir Android Studio et ouvrir le projet correspondant
 Lancer l'application à l'aide de la flêche verte en haut de la barre de menu
 
 ![LancerApplication.png](LancerApplication.png)
+
+**Etape 5:**
+Cliquer sur le logo de l'application "Entrevoisins"
+
+![Appli.png](Appli.png)
+
